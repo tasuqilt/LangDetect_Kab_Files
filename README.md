@@ -22,3 +22,6 @@ Misc Troubeshooting: https://github.com/Mimino666/langdetect/issues/5
 
 Note: 
 In linux, you need to copy the profile generated “kab” into installation folder of LangDetect folder such as : .../lib/python3.7/site-packages/langdetect/profiles
+
+Testing
+Test case "detect_lang.py"
