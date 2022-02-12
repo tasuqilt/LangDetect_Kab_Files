@@ -1,11 +1,18 @@
 # LangDetect_Kab_Files
 Adding support for Kabyle language (ISO 639-2 code “kab”)
 
-I have added the language profile (obtained with the command java -jar langdetect.jar --genprofile) and updated the README to include it in the list of supported languages.
+I have added the language profile "kab" (obtained with the command java -jar langdetect.jar --genprofile)
 
 Profile created using a Wikipedia export from kabwiki-20220120-abstract.xml.gz from wikipedia dumps site: https://dumps.wikimedia.org/kabwiki/20220120/
 
-Details:
+Installation (how to use "kab" in language detection):
+1. Install "LangDetect" using https://github.com/Mimino666/langdetect
+2. Add profile "Kab" file store here in this repository to the "LangDetect" installation folder
+3 Testing: Run command "Python detect_lang.py"
+
+
+Details for generating "kab" language profile (you only need to do this in case you want te regenerate another "kab" profile)
+
 Steps provided here: https://code.google.com/archive/p/language-detection/wikis/Tools.wiki
 
 Downloaded  langdetect.jar
@@ -23,6 +30,4 @@ Misc Troubeshooting: https://github.com/Mimino666/langdetect/issues/5
 Note: 
 In linux, you need to copy the profile generated “kab” into installation folder of LangDetect folder such as : .../lib/python3.7/site-packages/langdetect/profiles
 
-Testing:
 
-- Run command "Python detect_lang.py"
